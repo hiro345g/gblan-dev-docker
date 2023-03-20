@@ -1,7 +1,7 @@
 name: gblan-dev
 services:
   gblan-dev-docker:
-    image: hiro345g/devnode-desktop:1.0
+    image: hiro345g/devnode-desktop:1.1
     container_name: gblan-dev-docker
     hostname: gblan-dev-docker
     init: true

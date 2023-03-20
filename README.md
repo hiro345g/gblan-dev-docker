@@ -4,7 +4,6 @@
 
 devnode-desktop コンテナー内から使える Docker ボリュームの devnode-desktop-node-repo-data にカスタム gblan 開発用リポジトリーを用意して開発するようにしています。
 
-
 ## 必要なもの
 
 gblan を動作させるには、Docker Engine、Docker Compose が必要です。利用にあたっての説明では、Docker 拡張機能、Dev Containers 拡張機能をインストールした Visual Studio Code (VS Code) が使える前提としてあります。
