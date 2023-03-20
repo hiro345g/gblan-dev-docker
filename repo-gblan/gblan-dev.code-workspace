@@ -1,0 +1,21 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {},
+    "extensions": {
+        "recommendations": [
+            "esbenp.prettier-vscode",
+            "oderwat.indent-rainbow",
+            "eamodio.gitlens",
+            "donjayamanne.githistory",
+            "mhutchie.git-graph",
+            "ms-azuretools.vscode-docker",
+            "christian-kohler.npm-intellisense",
+            "yzhang.markdown-all-in-one",
+            "DavidAnson.vscode-markdownlint"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+name: gblan-dev
+services:
+  gblan-dev-docker:
+    image: hiro345g/devnode-desktop:1.0
+    container_name: gblan-dev-docker
+    hostname: gblan-dev-docker
+    init: true
+    tty: true
+    command: sh /gblan/script/init.sh
+    volumes:
+      - type: bind
+        source: ${DC_DIR:-.}
+        target: /gblan
